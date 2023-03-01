@@ -1,4 +1,4 @@
 # hahow-end-to-end-test
-A brief description of what this project does and who it's for.
-Table of Contents
+用於 Hahow 網站自動化測試項目使用pytest和 Page Object Model 框架。 目的是想要知道學習
+# 安裝
 

@@ -8,7 +8,36 @@
 """
 git clone https://github.com/kaohaohan/hahow-end-to-end-test.git
 cd hahow-end-to-end-test
-pip install -r requirements.txt
+pip install -r requirements.txt #下載相關套件
 
 """
+"""
+pytest test/
+"""
+#專案資訊
+UI Test: Selenium
+Language: Python 3.9.7
+Test Framework: pytest
+#專案架構
+"""
+hahow-end-to-end-test/
+├── pages/                  # 頁面對象模型
+│   ├── __init__.py
+│   ├── base_page.py
+│   ├── home_page.py
+│   └── ...
+├── tests/                  # 測試用例
+│   ├── __init__.py
+│   ├── test_login.py
+│   ├── test_purchase.py
+│   └── ...
+├── utils/                  # 工具
+│   ├── __init__.py
+│   ├── config.py
+│   └── ...
+├── .gitignore
+├── README.md
+├── requirements.txt
+└── run_tests.sh            # 自動化測試腳本
 
+"""

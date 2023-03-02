@@ -25,11 +25,12 @@ pip install -r requirements.txt
 ## 專案架構
 ```js
 hahow-end-to-end-test/
-├── pages/                  
-│   ├── __init__.py
-│   ├── classroom.py       # 課程頁面UI測試
-│   ├── home_page.py       # 首頁登入
-│   └── course_list_page.py #點擊探索UI測試
+├── src/
+│   ├── pages/                  
+│   │    ├── __init__.py
+│   │    ├── classroom.py       # 課程頁面UI測試
+│   │    ├── home_page.py       # 首頁登入
+│   │    └── course_list_page.py #點擊探索UI測試
 ├── test/                  # 測試用例
 │   ├── __init__.py
 │   ├── cookies.json       #cookies 登入需要的cookies
